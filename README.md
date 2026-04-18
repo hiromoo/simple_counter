@@ -1,17 +1,81 @@
 # simple_counter
 
-A new Flutter project.
+Flutter で作成したシンプルなカウンターアプリです。
 
-## Getting Started
+## 概要
 
-This project is a starting point for a Flutter application.
+このプロジェクトは、Flutter アプリ開発の最小構成をベースにしたサンプルです。
 
-A few resources to get you started if this is your first Flutter project:
+## 前提条件
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Flutter 開発環境がセットアップ済みであること
+- 端末シミュレータ、エミュレータ、または実機が利用できること
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## セットアップ
+
+依存パッケージを取得します。
+
+```bash
+flutter pub get
+```
+
+## 実行方法
+
+通常の Flutter コマンドで起動する場合:
+
+```bash
+flutter run
+```
+
+接続中のデバイスを確認したい場合:
+
+```bash
+flutter devices
+```
+
+テストを実行する場合:
+
+```bash
+flutter test
+```
+
+## FVM を使う場合
+
+このプロジェクトで FVM を利用している場合は、Flutter コマンドの代わりに `fvm flutter` を使います。
+
+依存パッケージの取得:
+
+```bash
+fvm flutter pub get
+```
+
+アプリの起動:
+
+```bash
+fvm flutter run
+```
+
+接続中デバイスの確認:
+
+```bash
+fvm flutter devices
+```
+
+テストの実行:
+
+```bash
+fvm flutter test
+```
+
+Flutter SDK の状態確認:
+
+```bash
+fvm flutter doctor
+```
+
+## 参考資料
+
+- [Flutter 公式ドキュメント](https://docs.flutter.dev/)
+- [Flutter を学ぶ](https://docs.flutter.dev/get-started/learn-flutter)
+- [はじめての Flutter アプリ](https://docs.flutter.dev/get-started/codelab)
+- [学習用リソース一覧](https://docs.flutter.dev/reference/learning-resources)
